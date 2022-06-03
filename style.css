@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Genos, san-serif;
+}
+
+#main {
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    top: -50%;
+    transform: translate(0, 50%);
+    box-shadow: rgb(125, 125, 125) 2px 2px 5px 2px,
+        rgb(247, 247, 247) -2px -2px 5px 2px;
+}
+
+#main div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.main {
+    animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: #ebde68;
+    }
+
+    25% {
+        background-color: #f2d845;
+    }
+
+    50% {
+        background-color: #ec9829;
+    }
+
+    75% {
+        background-color: #f3c80a;
+    }
+
+    100% {
+        background-color: #ffc403;
+    }
+}
+
+h1 {
+    font-family: 'Readex Pro', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#text {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 20%;
+    margin: 0 40%;
+    height: 2rem;
+    border: 1px solid #afcfc0;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+button {
+    width: 32%;
+    height: 2.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#btn1 {
+    margin-left: 18%;
+    background-color: rgb(13, 150, 13);
+}
+
+#btn1:hover {
+    background-color: rgb(52, 146, 52);
+}
+
+#btn2 {
+    margin-right: 15%;
+    background-color: rgb(72, 72, 216);
+}
+
+#btn2:hover {
+    background-color: rgb(105, 105, 214);
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 980px) {
+    #main {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    button {
+        width: 40%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #btn1 {
+        margin-left: 8%;
+    }
+
+    #btn2 {
+        margin-right: 5%;
+    }
+}
