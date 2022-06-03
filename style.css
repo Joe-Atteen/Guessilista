@@ -64,10 +64,8 @@ h1 {
 input {
     width: 20%;
     margin: 0 40%;
-    height: 2rem;
+    height: 3rem;
     border: 1px solid #afcfc0;
-    border-radius: 5px;
-    padding: 0.5rem;
     margin-bottom: 1rem;
     align-items: center;
     font-size: 1.8rem;
